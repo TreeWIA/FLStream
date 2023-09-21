@@ -1,7 +1,7 @@
 # FLstreamline
 Fedavg streamline code for 'An Impact Study of Concept Drift in Federated Learning"  
 
-## Dependencies:
+## Dependencies
     copy
     math
     time
@@ -16,10 +16,10 @@ Fedavg streamline code for 'An Impact Study of Concept Drift in Federated Learni
     random
 
 
-## how to run:
-    - When running the artificial dataset, you need to modify the drift_type in the main function, and then determine whether the file path of MyDataset is correct;
-    - When running the real dataset, just modify the file information of MyDataset;
-    - The default code is to run the forecast covtype dataset
+## How to run
+- When running the artificial dataset, you need to modify the drift_type in the main function, and then determine whether the file path of MyDataset is correct;
+- When running the real dataset, just modify the file information of MyDataset;
+- The default code is to run the forecast covtype dataset
 
     
 
@@ -35,4 +35,4 @@ Fedavg streamline code for 'An Impact Study of Concept Drift in Federated Learni
 - Synchronism: two scenarios are compared – synchronous, asynchronous. The synchronous case has all the clients start and end a concept drift at time step 200. The asynchronous case has the same drift affect clients 2 to 10               sequentially from time step 100 and one after another at every 100 time steps.
 
 ## Experimental Settings
-    All the experiments are implemented in PyTorch. The platform is an Lenovo R9000P with an AMD Ryzen 7 5800H CPU, a NVIDIA GeForce RTX 3070 Laptop GPU, and 16-GB RAM under Windows 11. 
+All the experiments are implemented in PyTorch. The platform is an Lenovo R9000P with an AMD Ryzen 7 5800H CPU, a NVIDIA GeForce RTX 3070 Laptop GPU, and 16-GB RAM under Windows 11. 
