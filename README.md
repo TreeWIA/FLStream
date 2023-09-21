@@ -25,7 +25,7 @@ a fedavg streamline code
 
 
 ## Scenario Design
-    We have established 15 experimental scenarios, encompassing three forms of drift, speed, severity, coverage, and synchronism. 
+### We have established 15 experimental scenarios, encompassing three forms of drift, speed, severity, coverage, and synchronism. 
     - The detailed settings inside the scenarios are:
     - Form: it is investigated by simulating P (x), P (y),P (y|x) drifts using the Sine generator. For the P (x) change, the old setting generates two classes of data far away from the SINE boundary; the new setting moves data close to       the boundary. For the P (y) change, the old setting is class imbalanced, with a ratio of 9:1 between class 0 and class 1; the new setting is class balanced with a 1:1 ratio between the two classes. For the P (y|x) change, the old         setting labels data above the sine boundary as class 0, and data below the boundary are labeled as class 1. The new setting switches around the two classes.
 
